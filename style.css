@@ -149,10 +149,6 @@ body {
 
 
 @media screen and (max-width:480px) {
-  body{
-    overflow: hidden;
-    height: auto;
-  }
   .typewriter, 
   .typewriter::after,
   .typewriter::before{
