@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SYN 606 | portfolio</title>
+</head>
+
+<body class="font-nunito">
+    <section class="header">
+        <nav class="w-full fixed top-0 bg-white">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div class="flex items-center gap-2 px-2">
+                    <img class="aspect-square object-cover rounded-full w-8" src="img/syn606.jpg"
+                        alt="404 Error | Image not found.">
+                    <span class="text-2xl font-bold text-red-500">SYN 606</span>
+                </div>
+                <ul class="hidden md:flex items-center gap-5 text-sm uppercase text-gray-700 font-bold">
+                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-github"></i> Github</a></li>
+                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-reddit"></i> Reddit</a></li>
+                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                </ul>
+                <div id="dark_mode" class="hidden md:block text-xl cursor-pointer">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <div id="menu" class="md:hidden text-xl px-2 z-10">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+                <ul id="menu-content"
+                    class="hidden bg-red-400 absolute left-0 top-0 w-full py-5 rounded-b-2xl space-y-10 text-sm text-center uppercase text-black font-bold">
+                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-github"></i> Github</a></li>
+                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-reddit"></i> Reddit</a></li>
+                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- intro content -->
+        <div></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
