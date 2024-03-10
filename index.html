@@ -15,7 +15,7 @@
 
 <body class="font-nunito">
     <section class="header">
-        <nav class="w-full fixed top-0 bg-white">
+        <nav class="w-full fixed top-0 bg-white z-20">
             <div class="container mx-auto py-5 flex items-center justify-between">
                 <div class="flex items-center gap-2 px-2">
                     <img class="aspect-square object-cover rounded-full w-8" src="img/syn606.jpg"
@@ -43,10 +43,10 @@
         </nav>
 
         <!-- intro content -->
-        <div class="hidden sm:block container mx-auto mt-8 pt-12">
+        <div class="hidden sm:block container mx-auto mt-8 pt-12 h-screen">
             <img class="object-cover rounded-2xl relative" src="img/syn606.jpg" alt="404 Error | Image not found.">
             <div
-                class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-red-600 absolute top-0 bottom-0 m-auto right-20 w-1/3 bg-white p-6 h-fit">
+                class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-black absolute top-0 bottom-0 m-auto right-20 w-1/3 bg-white p-6 h-fit">
                 <h1 id="text" class="text-4xl block font-bold text-red-600"></h1>
                 <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia quas!
                     Quas quis dolores
@@ -61,12 +61,55 @@
         <div class="sm:hidden container px-2 mt-56">
             <img class="object-cover rounded-xl relative" src="img/syn606.jpg" alt="404 Error | Image not found.">
             <div class="card mt-5 ">
-                <h2 id="text" class="text-xl text-red-600">Hello I'm SYN | 606.</h2>
+                <h1 id="text" class="text-xl text-red-600">Hello I'm SYN | 606</h1>
                 <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia quas!
                     Quas quis dolores
                     cupiditate, eligendi nesciunt, quisquam expedita corrupti in reiciendis magni rerum, ipsa facilis
                     nobis accusantium voluptatem fugit!</p>
             </div>
+        </div>
+    </section>
+    <section class="about-me">
+        <div class="container flex flex-col items-center gap-20 md:flex-row sm:mx-auto">
+            <img class="object-cover aspect-1/2 w-52 rounded-md shadow-lg shadow-black" src="./img/pc.jpeg"
+                alt="404 Error | Image not found.">
+
+            <div class="text-left p-2">
+                <h1 class="font-bold text-2xl">
+                    About Me
+                </h1>
+                <p>
+                    Developer / Cyber Security
+                </p>
+                <p>Sometime i also code.
+                    <br> Another IT and computer geek/nerd who loves to codes and explore new technologies in computer
+                    and stuff. Linux is by far most loved tech in my opinion, files systems using vim editor is quite
+                    fun though. Rust is also good but most syntactically convinced programming language is python for
+                    me.
+                </p>
+                <hr>
+                <div class="web-dev mt-5">
+                    <h2 class="text-xl">Web Development</h2>
+                    <div class="flex h-1.5 w-full bg-gray-200  rounded-md">
+                        <div class="w-full bg-red-600 rounded-md"></div>
+                    </div>
+                </div>
+                <div class="web-dev mt-5">
+                    <h2 class="text-xl">Cyber Security</h2>
+                    <div class="flex h-1.5 w-full bg-gray-200  rounded-md">
+                        <div class="w-3/4 bg-red-600 rounded-md"></div>
+                    </div>
+                </div>
+                <div class="web-dev mt-5">
+                    <h2 class="text-xl">Sys Admin</h2>
+                    <div class="flex h-1.5 w-full bg-gray-200  rounded-md">
+                        <div class="w-3/4 bg-red-600 rounded-md"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-2 sm:mx-auto">
+
         </div>
     </section>
     <script src="./app.js"></script>

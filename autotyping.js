@@ -119,7 +119,7 @@ var AutoTyping = (function (e) {
 ]).default;
 
 
-const exampleText = ['CyberSecurity', 'Networking', 'Linux administration', 'Clouds', 'Hardware stuff'];
+const exampleText = ['Hallo ik ben SYN606', 'Γεια σας είμαι SYN606', 'Hallo, ich bin SYN606', 'हैलो मैं SYN606 हूँ', 'こんにちは私はSYN606です', '안녕하세요 저는 SYN606입니다', 'Здравствуйте, я SYN606', 'வணக்கம் நான் SYN606'];
 const exampleTyping = new AutoTyping('#text', exampleText, {
     typeSpeed: 100,
     deleteSpeed: 100,
