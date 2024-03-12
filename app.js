@@ -19,6 +19,6 @@ darkMode.addEventListener('click', () => {
         darkMode.innerHTML = '<i class="fa-solid fa-moon"></i>';
     }
     else {
-        darkMode.innerHTML = '<i class="fa-solid fa-moon"></i>';
+        darkMode.innerHTML = '<i class="fa-solid fa-sun"></i>';
     }
 })

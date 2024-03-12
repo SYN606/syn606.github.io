@@ -4,6 +4,9 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
+      backgroundImage: {
+        'quote-bg': "url('../img/quote-left-solid.svg')",
+      },
       screens: {
         "sm": "480px"
       },
