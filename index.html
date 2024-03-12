@@ -15,23 +15,26 @@
     <title>SYN 606 | Portfolio</title>
 </head>
 
-<body class="font-nunito">
+<body class="font-nunito dark bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
     <section class="header">
-        <nav class="w-full fixed top-0 bg-white z-20">
+        <nav
+            class="w-full fixed top-0 bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text z-20">
             <div class="container mx-auto py-5 flex items-center justify-between">
                 <div class="flex items-center gap-2 px-2">
                     <img class="aspect-square object-cover rounded-full w-8" src="img/syn606.jpg"
                         alt="404 Error | Image not found.">
                     <span class="text-2xl font-bold text-red-500">SYN 606</span>
                 </div>
-                <ul class="hidden md:flex items-center gap-5 text-sm uppercase text-gray-700 font-bold">
-                    <li class="hover:text-red-600 hover:underline"><a target="_blank"
-                            href="https://github.com/SYN606"><i class="fa-brands fa-github"></i> Github</a></li>
-                    <li class="hover:text-red-600 hover:underline"><a target="_blank"
-                            href="https://www.reddit.com/user/memory_dealer/"><i class="fa-brands fa-reddit"></i>
+                <ul class="hidden md:flex items-center gap-5 text-sm uppercase font-bold">
+                    <li class="hover:text-light-secondary dark:hover:text-dark-secondary hover:underline"><a
+                            target="_blank" href="https://github.com/SYN606"><i class="fa-brands fa-github"></i>
+                            Github</a></li>
+                    <li class="hover:text-light-secondary dark:hover:text-dark-secondary hover:underline"><a
+                            target="_blank" href="https://www.reddit.com/user/memory_dealer/"><i
+                                class="fa-brands fa-reddit"></i>
                             Reddit</a></li>
-                    <li class="hover:text-red-600 hover:underline"><a href="https://t.me/syn_606"><i
-                                class="fa-brands fa-telegram"></i> Telegram</a></li>
+                    <li class="hover:text-light-secondary dark:hover:text-dark-secondary hover:underline"><a
+                            href="https://t.me/syn_606"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
                 </ul>
                 <div id="dark_mode" class="hidden md:block text-xl cursor-pointer">
                     <i class="fa-solid fa-sun"></i>
@@ -40,34 +43,43 @@
                     <i class="fa-solid fa-bars-staggered"></i>
                 </div>
                 <ul id="menu-content"
-                    class="hidden bg-red-400 absolute left-0 top-0 w-full py-5 rounded-b-2xl space-y-10 text-sm text-center uppercase text-black font-bold">
-                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-github"></i> Github</a></li>
-                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-reddit"></i> Reddit</a></li>
-                    <li class="hover:text-red-600"><a href="#"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
+                    class="hidden bg-light-accent absolute left-0 top-0 w-full py-5 rounded-b-2xl space-y-10 text-sm text-center uppercase text-black font-bold">
+                    <li class="hover:text-light-primary dark:hover:text-light-primary hover:underline"><a
+                            target="_blank" href="https://github.com/SYN606"><i class="fa-brands fa-github"></i>
+                            Github</a></li>
+                    <li class="hover:text-light-primary dark:hover:text-light-primary hover:underline"><a
+                            target="_blank" href="https://www.reddit.com/user/memory_dealer/"><i
+                                class="fa-brands fa-reddit"></i>
+                            Reddit</a></li>
+                    <li class="hover:text-light-primary dark:hover:text-light-primary hover:underline"><a
+                            href="https://t.me/syn_606"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
                 </ul>
             </div>
         </nav>
 
         <!-- intro content -->
-        <div class="hidden sm:block container mx-auto mt-8 pt-12 h-screen">
+        <div
+            class="hidden sm:block container mx-auto mt-8 pt-12 h-screen bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
             <img class="object-cover rounded-2xl relative" src="img/syn606.jpg" alt="404 Error | Image not found.">
             <div
-                class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-black absolute top-0 bottom-0 m-auto right-20 w-1/3 bg-white p-6 h-fit">
-                <h1 id="text" class="text-4xl block font-bold text-red-600"></h1>
+                class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-black absolute top-0 bottom-0 m-auto right-20 w-1/3 p-6 h-fit bg-light-accent dark:bg-dark-accent">
+                <h1 id="text" class="text-4xl block font-bold text-dark-primary dark:text-dark-primary"></h1>
                 <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia quas!
                     Quas quis dolores
                     cupiditate, eligendi nesciunt, quisquam expedita corrupti in reiciendis magni rerum, ipsa facilis
                     nobis accusantium voluptatem fugit!</p>
-                <a class="bg-red-600 p-2 rounded-md text-xl w-fit" href="#more">Read More <i
+                <a class="bg-dark-primary p-2 rounded-md text-xl w-fit" href="#more">Read More <i
                         class="fa-solid fa-arrow-down"></i></a>
             </div>
         </div>
 
         <!-- only for mobile -->
-        <div class="sm:hidden container px-2 mt-56">
-            <img class="object-cover rounded-xl relative" src="img/syn606.jpg" alt="404 Error | Image not found.">
-            <div class="card mt-5 ">
-                <h1 id="text" class="text-xl text-red-600">Hello I'm SYN | 606</h1>
+        <div
+            class="sm:hidden container px-2 pt-56 bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
+            <img class="object-cover rounded-xl relative shadow-white shadow-lg" src="img/syn606.jpg"
+                alt="404 Error | Image not found.">
+            <div class="card mt-8 ">
+                <h1 id="text" class="text-xl text-light-primary">Hello I'm SYN | 606</h1>
                 <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia quas!
                     Quas quis dolores
                     cupiditate, eligendi nesciunt, quisquam expedita corrupti in reiciendis magni rerum, ipsa facilis
@@ -75,7 +87,8 @@
             </div>
         </div>
     </section>
-    <section class="about-me" id="more">
+    <!-- about me -->
+    <section class="about-me bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text" id="more">
         <div class="container flex flex-col items-center gap-10 sm:gap-20 md:flex-row sm:mx-auto">
             <img class="object-cover aspect-2/1 w-4/5 mt-5 sm:aspect-1/2 sm:m-0 sm:w-52 rounded-md shadow-lg shadow-black"
                 src="./img/7922058.jpg" alt="404 Error | Image not found.">
@@ -84,7 +97,7 @@
                 <h1 class="font-bold text-2xl">
                     About Me
                 </h1>
-                <p>
+                <p class="text-dark-secondary dark:text-dark-secondary">
                     Developer / Cyber Security
                 </p>
                 <p>Sometime i also code.
@@ -97,59 +110,66 @@
                 <hr>
                 <div class="web-dev mt-5">
                     <h2 class="text-xl">Web Development</h2>
-                    <div class="flex h-1.5 w-full bg-gray-200  rounded-md">
-                        <div class="w-full bg-red-600 rounded-md"></div>
+                    <div class="flex h-1.5 w-full bg-light-secondary dark:bg-dark-secondary rounded-md">
+                        <div class="w-full bg-light-accent dark:bg-dark-accent rounded-md"></div>
                     </div>
                 </div>
                 <div class="web-dev mt-5">
                     <h2 class="text-xl">Cyber Security</h2>
-                    <div class="flex h-1.5 w-full bg-gray-200  rounded-md">
-                        <div class="w-3/4 bg-red-600 rounded-md"></div>
+                    <div class="flex h-1.5 w-full bg-light-secondary dark:bg-dark-secondary  rounded-md">
+                        <div class="w-3/4 bg-light-accent dark:bg-dark-accent rounded-md"></div>
                     </div>
                 </div>
                 <div class="web-dev mt-5">
                     <h2 class="text-xl">Sys Admin</h2>
-                    <div class="flex h-1.5 w-full bg-gray-200  rounded-md">
-                        <div class="w-3/4 bg-red-600 rounded-md"></div>
+                    <div class="flex h-1.5 w-full bg-light-secondary dark:bg-dark-secondary  rounded-md">
+                        <div class="w-3/4 bg-light-accent dark:bg-dark-accent rounded-md"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="skills">
-        <div class="container px-2 sm:mx-auto sm:mt-32">
-            <h3 class="text-2xl mt-10 font-bold">Skills</h3>
+    <!-- skills -->
+    <section class="bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
+        <div class="container px-2 sm:mx-auto sm:pt-32">
+            <h3 class="text-2xl pt-10 font-bold text-dark-primary">Skills</h3>
             <p>The skills i've achieved so far..</p>
 
             <div class="flex flex-col sm:flex-row gap-5">
                 <div class="border rounded-md p-5 shadow-md shadow-black">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-hat-cowboy text-gray-900"></i>
+                    <h1 class="font-bold text-light-accent dark:text-dark-accent text-xl"><i
+                            class="fa-solid fa-hat-cowboy text-dark-gray dark:text-light-gray"></i>
                         Cyber Security
                     </h1>
                     <p>Cybersecurity is not a buzz word, its a mindset that doesn't comes with learning books and
                         technologies.</p>
                 </div>
                 <div class="border rounded-md p-5 shadow-md shadow-black">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-code text-gray-900"></i> Web
+                    <h1 class="font-bold text-light-accent dark:text-dark-accent text-xl"><i
+                            class="fa-solid fa-code text-dark-gray dark:text-light-gray"></i> Web
                         Development
                     </h1>
                     <p>Web Developer is a new trendy technology that includes a lot of things such as UI UX, databases,
                         Data caching etc.</p>
                 </div>
                 <div class="border rounded-md p-5 shadow-md shadow-black">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-terminal text-gray-900"></i> Linux
+                    <h1 class="font-bold text-light-accent dark:text-dark-accent text-xl"><i
+                            class="fa-solid fa-terminal text-dark-gray dark:text-light-gray"></i> Linux
                         OS
                     </h1>
                     <p>Linux is just not an OS, its a mariana trench of technology and information. If you get deeper in
                         Linux things you'll get to know things such as os task assigning, kernels, file systems, boot
-                        loader etc. One more thing i use <span class="font-bold underline"> <a target="_blank"
+                        loader etc. One more thing i use <span
+                            class="font-bold underline text-light-secondary dark:text-dark-secondary"> <a
+                                target="_blank"
                                 href="https://www.reddit.com/r/archlinux/comments/15wmyhf/i_finally_understand_the_i_use_arch_btw_thing/">ARCH
                                 BTW</a></span>.</p>
                 </div>
             </div>
             <div class="flex flex-col sm:flex-row mt-3 gap-5">
                 <div class="border rounded-md p-5 shadow-md shadow-black">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-microchip text-gray-900"></i>
+                    <h1 class="font-bold text-light-accent dark:text-dark-accent text-xl"><i
+                            class="fa-solid fa-microchip text-dark-gray dark:text-light-gray"></i>
                         Hardware
                     </h1>
                     <p>So if you're getting into computer and you don't know about hardware things such as Processors,
@@ -157,14 +177,16 @@
                     </p>
                 </div>
                 <div class="border rounded-md p-5 shadow-md shadow-black">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-wifi text-gray-900"></i> Networking
+                    <h1 class="font-bold text-light-accent dark:text-dark-accent text-xl"><i
+                            class="fa-solid fa-wifi text-dark-gray dark:text-light-gray"></i> Networking
                     </h1>
                     <p>If you know networking deeply then you can easily get into clouds, internet, network tunneling,
                         protocols etc. In day today life it helps a lot of things such as creating and managing local
                         networks, NAS (Network attached stored), SAN (Storage attached network) etc.</p>
                 </div>
                 <div class="border rounded-md p-5 shadow-md shadow-black">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-brands fa-windows text-gray-900"></i> Sys
+                    <h1 class="font-bold text-light-accent dark:text-dark-accent text-xl"><i
+                            class="fa-brands fa-windows text-dark-gray dark:text-light-gray"></i> Sys
                         Admin
                     </h1>
                     <p>Now days sys admins are very popular because managing a system whether its cloud or local machine
@@ -173,14 +195,16 @@
             </div>
         </div>
     </section>
-    <section class="projetcs">
-        <div class="container px-2 mt-20 sm:mt-36 sm:mx-auto">
-            <h1 class="font-bold text-2xl">
+    <!-- projects  -->
+    <section class="bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
+        <div class="container px-2 pt-20 sm:pt-36 sm:mx-auto">
+            <h1 class="font-bold text-2xl text-dark-primary">
                 Projects
             </h1>
-            <div class="flex flex-col sm:flex-row mt-8 sm:mt-14 gap-5">
+            <div class="flex flex-col sm:flex-row pt-8 sm:pt-14 gap-5">
                 <div class="border rounded-md p-5 shadow-lg shadow-black sm:w-6/12">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-file text-gray-900"></i>
+                    <h1 class="font-bold text-red-600 text-xl text-light-accent dark:text-dark-accent"> <i
+                            class="fa-solid fa-file text-dark-gray dark:text-light-gray"></i>
                         Excercise-logger
                     </h1>
                     <div class="flex flex-col sm:flex-row sm:justify-around sm:items-center sm:gap-3">
@@ -188,7 +212,9 @@
                             alt="404 Error | Image not found.">
                         <div class="sm:w-3/4">
                             <p>This program is made for taking user details and save it into a <span
-                                    class="code border rounded px-2">.txt</span> file for log. This program
+                                    class="code border rounded px-2 border-light-gray">.txt</span>
+                                file for log. This
+                                program
                                 is Excercise logger that will makes a history of your diet meal and excercise.
                                 <br>
                                 There are no additional modules are used therefore it can easily run.
@@ -197,7 +223,8 @@
                     </div>
                 </div>
                 <div class="border rounded-md p-5 shadow-lg shadow-black sm:w-6/12">
-                    <h1 class="font-bold text-red-600 text-xl"><i class="fa-solid fa-file text-gray-900"></i>
+                    <h1 class="font-bold text-red-600 text-xl text-light-accent dark:text-dark-accent"> <i
+                            class="fa-solid fa-file text-dark-gray dark:text-light-gray"></i>
                         Employee-management-system (EMS)
                     </h1>
                     <div class="flex flex-col sm:flex-row sm:justify-around sm:items-center sm:gap-3">
@@ -208,7 +235,8 @@
                                 CRUD
                                 functionality with couple of additional things.
 
-                                This project contains a basic <span class="code border rounded px-2">sqlite3</span>
+                                This project contains a basic <span
+                                    class="code border rounded px-2 border-light-gray">sqlite3</span>
                                 database
                                 for storing data
                                 and for managing it. It is able to handle all the database operations and queries,
@@ -222,7 +250,8 @@
             </div>
         </div>
     </section>
-    <section class="contacts mt-32">
+    <!-- contacts -->
+    <section class="contacts pt-32 bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
         <div class="container px-2 sm:mx-auto">
             <div class="contact-container">
                 <p class="contact-para">
@@ -239,9 +268,22 @@
             </div>
         </div>
     </section>
-
-    <footer class="mt-32">
-
+    <!-- footer area -->
+    <footer class="bg-light-secondary dark:bg-dark-secondary py-16">
+        <div class="flex container px-2  sm:mx-auto justify-center items-center h-full">
+            <div class="w-1/4">
+                <div class="flex items-center gap-2">
+                    <img class="aspect-square object-cover rounded-full w-8" src="img/syn606.jpg"
+                        alt="404 Error | Image not found.">
+                    <span class="hidden sm:block text-2xl font-bold text-light-primary">SYN 606</span>
+                </div>
+            </div>
+            <div class="w-3/4">
+                <p class="text-black dark:text-white text-right">Made with ❤️ by SYN 606. <br>
+                    Thanks for visiting, wait for surprise.
+                </p>
+            </div>
+        </div>
     </footer>
 
     <script src="./app.js"></script>

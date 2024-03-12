@@ -16,7 +16,7 @@
 
 .text-eng {
     font-family: "Kaushan Script", cursive;
-    color: #abb0f3;
+    color: #8ace77;
 }
 
 .text-latin {
@@ -25,7 +25,7 @@
 
 .link-text,
 .email-area a {
-    color: #abb0f3;
+    color: #8ace77;
     /* color: gray; */
 }
 
