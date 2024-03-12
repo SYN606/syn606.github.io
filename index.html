@@ -12,10 +12,17 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./src/contact.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+
     <title>SYN 606 | Portfolio</title>
 </head>
 
-<body class="font-nunito dark bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
+<body class="font-nunito bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text" id="body">
     <section class="header">
         <nav
             class="w-full fixed top-0 bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text z-20">
@@ -58,21 +65,23 @@
         </nav>
 
         <!-- intro content -->
-        <div
-            class="hidden sm:block container mx-auto mt-8 pt-12 h-screen bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
-            <img class="object-cover rounded-2xl relative" src="img/syn606.jpg" alt="404 Error | Image not found.">
-            <div
-                class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-black absolute top-0 bottom-0 m-auto right-20 w-1/3 p-6 h-fit bg-light-accent dark:bg-dark-accent">
-                <h1 id="text" class="text-4xl block font-bold text-dark-primary dark:text-dark-primary"></h1>
-                <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia quas!
-                    Quas quis dolores
-                    cupiditate, eligendi nesciunt, quisquam expedita corrupti in reiciendis magni rerum, ipsa facilis
-                    nobis accusantium voluptatem fugit!</p>
-                <a class="bg-dark-primary p-2 rounded-md text-xl w-fit" href="#more">Read More <i
-                        class="fa-solid fa-arrow-down"></i></a>
+        <section class="bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
+            <div class="hidden sm:block container mx-auto mt-8 pt-12 h-screen">
+                <img class="object-cover rounded-2xl relative" src="img/syn606.jpg" alt="404 Error | Image not found.">
+                <div
+                    class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-black absolute top-0 bottom-0 m-auto right-20 w-1/3 p-6 h-fit bg-light-accent dark:bg-dark-accent">
+                    <h1 id="text" class="text-4xl block font-bold text-dark-primary dark:text-dark-primary"></h1>
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia
+                        quas!
+                        Quas quis dolores
+                        cupiditate, eligendi nesciunt, quisquam expedita corrupti in reiciendis magni rerum, ipsa
+                        facilis
+                        nobis accusantium voluptatem fugit!</p>
+                    <a class="bg-dark-primary p-2 rounded-md text-xl w-fit" href="#more">Read More <i
+                            class="fa-solid fa-arrow-down"></i></a>
+                </div>
             </div>
-        </div>
-
+        </section>
         <!-- only for mobile -->
         <div
             class="sm:hidden container px-2 pt-56 bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text">
@@ -91,7 +100,7 @@
     <section class="about-me bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text" id="more">
         <div class="container flex flex-col items-center gap-10 sm:gap-20 md:flex-row sm:mx-auto">
             <img class="object-cover aspect-2/1 w-4/5 mt-5 sm:aspect-1/2 sm:m-0 sm:w-52 rounded-md shadow-lg shadow-black"
-                src="./img/7922058.jpg" alt="404 Error | Image not found.">
+                src="./img/7922058.png" alt="404 Error | Image not found.">
 
             <div class="text-left p-2">
                 <h1 class="font-bold text-2xl">
@@ -208,7 +217,7 @@
                         Excercise-logger
                     </h1>
                     <div class="flex flex-col sm:flex-row sm:justify-around sm:items-center sm:gap-3">
-                        <img class="aspect-square object-cover w-auto sm:w-1/4 rounded-md" src="./img/8401.jpg"
+                        <img class="aspect-square object-cover w-auto sm:w-1/4 rounded-md" src="./img/8401.png"
                             alt="404 Error | Image not found.">
                         <div class="sm:w-3/4">
                             <p>This program is made for taking user details and save it into a <span
@@ -228,7 +237,7 @@
                         Employee-management-system (EMS)
                     </h1>
                     <div class="flex flex-col sm:flex-row sm:justify-around sm:items-center sm:gap-3">
-                        <img class="aspect-square object-cover w-auto sm:w-1/4 rounded-md" src="./img/8401.jpg"
+                        <img class="aspect-square object-cover w-auto sm:w-1/4 rounded-md" src="./img/8401.png"
                             alt="404 Error | Image not found.">
                         <div class="sm:w-3/4">
                             <p>This is a django project based on python's web frame work Django that contains basic
@@ -286,8 +295,8 @@
         </div>
     </footer>
 
-    <script src="./app.js"></script>
-    <script src="./autotyping.js"></script>
 </body>
+<script src="./app.js"></script>
+<script src="./autotyping.js"></script>
 
 </html>
