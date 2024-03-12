@@ -8,10 +8,10 @@
     text-decoration-thickness: 1px;
 }
 
+
 .email-area {
     text-align: center;
     margin-top: 1em;
-    font-size: 2em;
 }
 
 .text-eng {
@@ -32,4 +32,12 @@
 .email-area {
     font-family: cursive, sans-serif;
     font-size: 4em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    .contact-para,
+    .email-area {
+        font-size: 2em;
+    }
 }
