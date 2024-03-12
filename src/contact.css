@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+.contact-para {
+    font-size: 4em;
+    font-family: "Roboto", sans-serif;
+    color: gray;
+    text-decoration: underline dotted gray;
+    text-decoration-thickness: 1px;
+}
+
+.email-area {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+}
+
+.text-eng {
+    font-family: "Kaushan Script", cursive;
+    color: #abb0f3;
+}
+
+.text-latin {
+    color: gray;
+}
+
+.link-text,
+.email-area a {
+    color: #abb0f3;
+    /* color: gray; */
+}
+
+.email-area {
+    font-family: cursive, sans-serif;
+    font-size: 4em;
+}
