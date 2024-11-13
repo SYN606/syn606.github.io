@@ -294,7 +294,8 @@ footer {
 .footer_box {
     display: grid;
     grid-template-areas: 'one two';
-    gap: 1em;
+    gap: 3em;
+    place-items: center;
 }
 
 .footer_box-2 {
@@ -313,6 +314,13 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: nowrap;
+    gap: 0.7em;
+    padding-top: 1.5em;
+}
+
+.logo {
+    margin-right: 0.7em;
+    font-size: larger;
 }
 
 .footer_nav-list li a {
@@ -323,6 +331,21 @@ footer {
     color: #010b18;
     transition: 300ms;
     font-size: large;
+}
+
+.footer_box-1 hr {
+    margin: 1.5em 0em;
+}
+
+.msg {
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.thanks {
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 /* media queries */
@@ -359,7 +382,6 @@ footer {
 @media only screen and (max-width : 500px) {
     .container {
         padding: 0 1em;
-        gap: em;
     }
 
     .main-area {
@@ -381,5 +403,5 @@ footer {
     .skill-box {
         flex-direction: column;
     }
-    
+
 }
