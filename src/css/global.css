@@ -1,0 +1,130 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Open sans */
+
+/* IBM Plex */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* IBM Plex Serif */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --background: #010b18;
+    /* Midnight Blue */
+    --text: #C1E8FF;
+    /* Powder Blue */
+    --accent: #5483B3;
+    /* Maya Blue */
+    --primary: #052659;
+    /* Dark Blue */
+    --secondary: #7DA0CA;
+    /* Baby Blue */
+}
+
+/* font classes */
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* IBM Plex */
+
+.ibm-plex-sans-thin {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ibm-plex-sans-light {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-sans-semibold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ibm-plex-sans-bold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* IBM Plex Serif */
+
+.ibm-plex-serif-thin {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.ibm-plex-serif-light {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ibm-plex-serif-regular {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibm-plex-serif-semibold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ibm-plex-serif-bold {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Defaults */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+img {
+    object-fit: contain;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    max-width: 20em;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--text);
+}
+
+hr {
+    color: var(--primary);
+}
+
+li {
+    list-style: none;
+}
